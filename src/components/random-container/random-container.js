@@ -6,7 +6,7 @@ export default class RandomContainer extends Component {
     render() {
         return (
             <div className='container'>
-                <Details />
+                <Details student={this.props.student}/>
             </div>
         )
     }
